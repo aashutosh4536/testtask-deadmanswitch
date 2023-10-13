@@ -19,7 +19,7 @@ export const Home = ({navigation}) => {
     }
   }
   function onSwipeRight() {
-    if (contactPageIndex === 1) {
+    if (contactPageIndex === 0) {
       navigation.navigate('Outbox');
     }
   }
